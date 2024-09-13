@@ -1,3 +1,763 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: Sans-serif
+}
+
+
+.background {
+    background-image: url(https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-color: black; 
+    background-position: 0px 20%; 
+    background-size: cover;   
+}
+
+.backgroundbf {
+    background-image: url(https://downloadhdwallpapers.in/wp-content/uploads/2017/12/Reading-Newspaper.jpg);
+    background-color: black; 
+    background-position: 0px 20%; 
+    background-size: cover;   
+}
+
+.backgroundfaq {
+    background-image: url(https://w0.peakpx.com/wallpaper/395/822/HD-wallpaper-city-amoled-black-building-city-new-night-sky.jpg);
+    background-color: black; 
+    background-position: 0px 20%; 
+    background-size: cover;   
+}
+
+.backgroundprof {
+    background-image: url(https://w0.peakpx.com/wallpaper/61/454/HD-wallpaper-city-night.jpg);
+    background-color: black; 
+    background-position: 0px 25%; 
+    background-size: cover;   
+}
+
+.backgrounddb {
+    background-image: url(https://w0.peakpx.com/wallpaper/478/836/HD-wallpaper-street-silhouette-night-fog-light-city.jpg);
+    background-color: black; 
+    background-position: 0px 0%; 
+    background-size: cover;   
+}
+
+.backgroundcontact{
+    background-image: url(https://i.redd.it/iaegayekr9k61.jpg);
+    background-color: black; 
+    background-position: 0px 20%; 
+    background-size: cover;   
+}
+
+.backgroundsk{
+    background-image: url(https://wallpapers.com/images/featured/programming-iphone-bd86goc4fhvenj72.jpg);
+    background-color: black; 
+    background-position: 0px 1000%; 
+    background-size: cover;   
+}
+
+.backgroundswot{
+    background-image: url(https://www.pixartprinting.it/blog/wp-content/uploads/2021/10/definizione_analisi_SWOT.jpg);
+    background-color: black; 
+    background-position: 0px 330%; 
+    background-size: cover;   
+}
+
+.backgroundexp{
+    background-image: url(https://media.licdn.com/dms/image/D5612AQFeoUKINsis0A/article-cover_image-shrink_720_1280/0/1709223304234?e=2147483647&v=beta&t=DAQjqK3oCzpKRIXOnoVX_tOw-u2QLPPW_DNwe9yClVE);
+    background-color: black; 
+    background-position: 0px 10%; 
+    background-size: cover;   
+}
+
+.backgroundff{
+    background-image: url(https://img.freepik.com/free-photo/feedback-word-written-with-chalk-blackboard_144627-24509.jpg);
+    background-color: black; 
+    background-position: 0px 33%; 
+    background-size: cover;   
+}
+
+.backgroundict{
+    background-image: url(https://piserve.com/wp-content/uploads/2023/01/the-future-of-artificial-intelligence-is-here.jpg);
+    background-color: black; 
+    background-position: 0px 15%; 
+    background-size: cover;   
+}
+
+
+
+/*
+
 body {
-    background-color: darkgray;
+    text-align: center;
+}
+
+*/
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+/*
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+*/
+
+a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 10px;
+    border: 0px solid;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: rgb(125, 125, 125);
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.sectie3button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    margin: 10px;
+}
+
+.activeotherpage {
+    color: white;
+    float: center;
+}
+.active {
+    color: rgb(25, 25, 25);
+    float: left;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
+.homebutton {
+    color: rgb(25, 25, 25);
+    float: left;
+    cursor: pointer;
+    color: white;
+}
+
+.currentpage {
+    text-decoration: underline;
+}
+
+.contactcurrentpage {
+    background-color: rgb(25, 25, 25);
+    margin: 10px;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+}
+
+.contact {
+    background-color: rgb(25, 25, 25);
+    margin: 10px;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.contact:hover {
+    background-color: rgb(125, 125, 125);
+}
+
+#ml {
+    background-color: white;
+    margin: 0px;
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+#mlp {
+    background-color: black;
+    margin: 3px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: normal;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0px
+}
+
+#ml3 {
+    background-color: white;
+    margin: 0px;
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+#mlp3 {
+    background-color: black;
+    margin: 3px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: normal;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0px
+}
+
+aside {
+    font-size: x-small;
+    background-color: black;
+    color: rgb(99,115,147);
+    width: 15%;
+    float: left;
+    border-right: 2px solid white;
+}
+
+footer {
+    background-color: rgb(25, 25, 25);
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 175px;
+    padding-left: 100px;
+}
+
+.footer1 {
+    font-size: normal;
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    float: left;
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: normal;
+}
+
+.footer1:hover {
+    background-color: rgb(125, 125, 125);
+    text-decoration: underline;
+}
+
+section {
+    color: white;
+    height: auto;
+    width: 85%;
+    text-align: 35%
+}
+
+#titelindex {
+    color: white;
+}
+
+
+table, th, td {
+    color: white;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+td, th {
+    font-size: x-small;
+}
+
+
+
+#footerlijn {
+    width: 100%;
+}
+
+#dashboardtopline {
+    padding: 0px;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 14.98%;
+    padding: 1px;
+    background-color: white;
+    border: 0px;
+}
+
+.card {
+    color: white;
+    width: auto;
+    padding: 22px 30px;
+    border-radius: 5px;
+    line-height: 1.8;
+}
+
+#texttitel{
+    color: white;
+    font-family: "Poppins", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+
+}
+
+.subtexttitel {
+    font-family: "Poppins", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    font-size: normal;
+    color: white;
+}
+
+.faqtext {
+    margin-top: 150px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    padding-right: 150px;
+}
+
+.faqtext2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    padding-right: 150px;
+}
+
+.text1 {
+    margin-top: 150px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    padding-right: 150px;
+}
+
+.text2 {
+    background-color: black;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.text4 {
+    background-color: black;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.text5 {
+    background-color: black;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 450px;
+}
+
+.text5pf {
+    background-color: black;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 450px;
+}
+.text6pf {
+    background-color: black;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 450px;
+}
+
+
+.textbg {
+    background-color: black;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.text1bg {
+    margin-top: 150px;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    padding-right: 150px;
+}
+
+
+
+#motivatie {
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: normal;
+    color: white;
+}
+
+#directie1 {
+    color: white;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-small;
+}
+
+#sectie2text {
+    color: white;
+    font-family: "Poppins", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+}
+
+#ch {
+    display: none;
+}
+
+#ch:checked ~ .content {
+    display: block;
+}
+
+#ch:checked ~ label {
+    display: none;
+}
+
+#ch1 {
+    display: none;
+}
+
+#ch1:checked ~ .content {
+    display: block;
+}
+
+#ch1:checked ~ label {
+    display: none;
+}
+
+#ch2{
+    display: none;
+}
+
+#ch2:checked ~ .content {
+    display: block;
+}
+
+#ch2:checked ~ label {
+    display: none;
+}
+
+#ch3 {
+    display: none;
+}
+
+#ch3:checked ~ .content {
+    display: block;
+}
+
+#ch3:checked ~ label {
+    display: none;
+}
+
+#ch4 {
+    display: none;
+}
+
+#ch4:checked ~ .content {
+    display: block;
+}
+
+#ch4:checked ~ label {
+    display: none;
+}
+
+#ch5 {
+    display: none;
+}
+
+#ch5:checked ~ .content {
+    display: block;
+}
+
+#ch5:checked ~ label {
+    display: none;
+}
+
+.content {
+    font-size: x-small;
+    display: none;
+    color: white;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+label {
+    display: inline-block;
+    font-size: 36px;
+    background: linear-gradient(to right, rgb(125, 125, 125), 0%, rgb(125, 125, 125), 13%, white 13.3%, white 50%);
+    background-color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: x-small;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    padding: 0px 5px;
+    margin-top: 30px;
+}
+
+.faqlabel {
+    display: inline-block;
+    font-size: 36px;
+    background: linear-gradient(to right, rgb(125, 125, 125), 0%, rgb(125, 125, 125), 30%, white 30.1%, white 50%);
+    background-color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: x-small;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    padding: 0px 5px;
+    margin-top: 0px;
+}
+
+.faqlabel2 {
+    display: inline-block;
+    font-size: 36px;
+    background: linear-gradient(to right, rgb(125, 125, 125), 0%, rgb(125, 125, 125), 10%, white 10.1%, white 50%);
+    background-color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: x-small;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    padding: 0px 5px;
+    margin-top: 0px;
+}
+
+.lijstzonderpunt {
+    list-style-type: none;
+    width: 100%;
+    float: right;
+    display: block;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+}
+
+div.polaroid {
+  width: 420px;
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.container {
+  text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .locainfo {
+    color: grey;
+  }
+
+  .text3 {
+    background-image: url(https://w0.peakpx.com/wallpaper/317/723/HD-wallpaper-anime-original-classroom-night.jpg);
+    background-color: black; 
+    background-size: cover; 
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 55px;
+  }
+
+  #ml2 {
+    background-color: white;
+    margin: 0px;
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+#ml8 {
+    background-color: white;
+    margin: 0px;
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: normal;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+#mlp2 {
+    margin: 3px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: normal;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0px
+}
+
+summary {
+
+display: inline-block;
+font-size: 36px;
+background: linear-gradient(to right, rgb(125, 125, 125), 0%, rgb(125, 125, 125), 13%, white 13.3%, white 50%);
+background-color: white;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: x-small;
+display: inline-block;
+cursor: pointer;
+color: black;
+padding: 0px 5px;
+margin-top: 30px;
+
+}
+
+div.gallery {
+    border: 5px solid white;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+  
+div.gallery:hover {
+    border: 5px solid rgb(125, 125, 125);
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 19.99999999999%;
+}
+  
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 39.99999999999%;
+      margin: 6px 0;
+    }
+}
+  
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 59.99999999999999%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 79.9999999999999999%;
+    }
+}
+  
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.blogfeedimg:hover {
+    background-color: rgba(128, 0, 0, 0);
+    margin: 10px;
+    text-decoration: underline;
 }
