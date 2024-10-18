@@ -4,8 +4,9 @@ html, body {
     font-family: Sans-serif
 }
 
+/* backgrounds */
 
-.background {
+.background { 
     background-image: url(https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     background-color: black; 
     background-position: 0px 20%; 
@@ -82,15 +83,7 @@ html, body {
     background-size: cover;   
 }
 
-
-
-/*
-
-body {
-    text-align: center;
-}
-
-*/
+/* navbar */
 
 nav {
     list-style-type: none;
@@ -99,16 +92,6 @@ nav {
     overflow: hidden;
     background-color: black;
 }
-
-/*
-
-header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-
-*/
 
 a {
     font-family: "Poppins", sans-serif;
@@ -249,14 +232,7 @@ a:hover {
     border-radius: 0px
 }
 
-aside {
-    font-size: x-small;
-    background-color: black;
-    color: rgb(99,115,147);
-    width: 15%;
-    float: left;
-    border-right: 2px solid white;
-}
+/* footer settings */
 
 footer {
     background-color: rgb(25, 25, 25);
@@ -265,6 +241,8 @@ footer {
     padding-bottom: 175px;
     padding-left: 100px;
 }
+
+/* footer items */
 
 .footer1 {
     font-size: normal;
@@ -282,6 +260,8 @@ footer {
     text-decoration: underline;
 }
 
+/* main section settings */
+
 section {
     color: white;
     height: auto;
@@ -293,6 +273,7 @@ section {
     color: white;
 }
 
+/* table opmaak */
 
 table, th, td {
     color: white;
@@ -304,15 +285,7 @@ td, th {
     font-size: x-small;
 }
 
-
-
-#footerlijn {
-    width: 100%;
-}
-
-#dashboardtopline {
-    padding: 0px;
-}
+/* header settings */
 
 hr {
     margin-top: 0px;
@@ -323,6 +296,8 @@ hr {
     border: 0px;
 }
 
+/* dropdown menu */
+
 .card {
     color: white;
     width: auto;
@@ -330,6 +305,8 @@ hr {
     border-radius: 5px;
     line-height: 1.8;
 }
+
+/* titel vd text */
 
 #texttitel{
     color: white;
@@ -340,6 +317,8 @@ hr {
 
 }
 
+/* subtext titel vd text */
+
 .subtexttitel {
     font-family: "Poppins", system-ui;
     font-weight: 100;
@@ -347,6 +326,8 @@ hr {
     font-size: normal;
     color: white;
 }
+
+/* faq text opmaak */
 
 .faqtext {
     margin-top: 150px;
@@ -361,6 +342,8 @@ hr {
     margin-left: 150px;
     padding-right: 150px;
 }
+
+/* alle sections opmaak */
 
 .text1 {
     margin-top: 150px;
@@ -377,6 +360,17 @@ hr {
     padding-left: 150px;
     padding-right: 150px;
 }
+
+.text3 {
+    background-image: url(https://w0.peakpx.com/wallpaper/317/723/HD-wallpaper-anime-original-classroom-night.jpg);
+    background-color: black; 
+    background-size: cover; 
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 55px;
+  }
 
 .text4 {
     background-color: black;
@@ -431,7 +425,7 @@ hr {
     padding-right: 150px;
 }
 
-
+/* motivatie opmaak */
 
 #motivatie {
     font-family: "Poppins", system-ui;
@@ -440,6 +434,8 @@ hr {
     font-size: normal;
     color: white;
 }
+
+/* Verder lezen text opmaak */
 
 #directie1 {
     color: white;
@@ -456,6 +452,8 @@ hr {
     font-style: normal;
     font-size: x-large;
 }
+
+/* checkbox code (meer lezen knopje) */
 
 #ch {
     display: none;
@@ -529,6 +527,8 @@ hr {
     display: none;
 }
 
+/* content opmaak */
+
 .content {
     font-size: x-small;
     display: none;
@@ -537,6 +537,8 @@ hr {
     font-weight: 400;
     font-style: normal;
 }
+
+/* opmaak labels */
 
 label {
     display: inline-block;
@@ -583,6 +585,8 @@ label {
     margin-top: 0px;
 }
 
+/* haalt bij lists de puntjes voor elk kopje weg */
+
 .lijstzonderpunt {
     list-style-type: none;
     width: 100%;
@@ -596,6 +600,8 @@ label {
     text-align:left;
 }
 
+/* foto opmaak voor verder lezen */
+
 div.polaroid {
   width: 420px;
   background-color: black;
@@ -606,6 +612,8 @@ div.container {
   text-align: center;
 }
 
+/* table opmaak */
+
 * {
     box-sizing: border-box;
   }
@@ -613,8 +621,7 @@ div.container {
   .row {
     display: flex;
   }
-  
-  /* Create three equal columns that sits next to each other */
+
   .column {
     flex: 33.33%;
     padding: 5px;
@@ -624,16 +631,7 @@ div.container {
     color: grey;
   }
 
-  .text3 {
-    background-image: url(https://w0.peakpx.com/wallpaper/317/723/HD-wallpaper-anime-original-classroom-night.jpg);
-    background-color: black; 
-    background-size: cover; 
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    padding-left: 150px;
-    padding-right: 55px;
-  }
+
 
   #ml2 {
     background-color: white;
@@ -683,6 +681,8 @@ div.container {
     border-radius: 0px
 }
 
+/* samenvatting opmaak */
+
 summary {
 
 display: inline-block;
@@ -700,6 +700,8 @@ margin-top: 30px;
 
 }
 
+/* blogfeed keuzemenu opmaak */
+
 div.gallery {
     border: 5px solid white;
     background-color: black;
@@ -712,6 +714,22 @@ div.gallery:hover {
 }
   
 div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.acgallery {
+    border: 5px solid rgb(75, 75, 75);
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+  
+div.acgallery:hover {
+    border: 5px solid rgb(125, 125, 125);
+}
+  
+div.acgallery img {
     width: 100%;
     height: auto;
 }
